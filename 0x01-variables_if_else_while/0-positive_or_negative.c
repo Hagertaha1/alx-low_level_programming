@@ -10,9 +10,9 @@
 
 int main(void)
 {   int n=0;
-if(n>0)
+if (n > 0)
 printf("%i is positive", n)
-else if(n<0)
+else if (n < 0)
 printf("%i is negative", n)
 else
 printf("%i is zero", n)
