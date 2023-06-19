@@ -9,7 +9,7 @@
 */
 
 int main(void)
-{   int n=0;
+{   int n = 0;
 if (n > 0)
 printf("%i is positive", n)
 else if (n < 0)
