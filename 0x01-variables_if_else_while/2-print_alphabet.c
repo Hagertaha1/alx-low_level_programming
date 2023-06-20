@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+/**
+ * main - Entry point
+ *
+ * Description: c program that prints the alphabet in lowercase
+ *
+ * Return: 0 (success)
+*/
+
+int main(void)
+{   char ch = 'a'
+while (ch <= 'z')
+putchar("%c", ch);
+return (0);
+}
