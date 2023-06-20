@@ -3,14 +3,14 @@
 /**
  * main - Entry point
  *
- * Description: c program that prints the alphabet in lowercase, and then in uppercase
+ * Description: c program that prints the alphabet in lowercase and uppercase
  *
  * Return: 0 (success)
 */
 
 int main(void)
 {char ch1 = 'a';
-chr ch2 = 'A';
+char ch2 = 'A';
 while (ch1 <= 'z')
 {putchar(ch1);
 ch1++;
