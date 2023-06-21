@@ -8,9 +8,12 @@
  * Return: 0 (success)
 */
 
-char _putchar(void);
-
 int main(void)
-{   putchar("_putchar\n");
-	return (0);
+{char str[] = "_putchar";
+int ch;
+for (ch = 'a'; ch <= 'z'; ch++)
+_putchar(str[ch]);
+_putchar('\n');
+return (0);
 }
+
