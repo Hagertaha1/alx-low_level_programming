@@ -2,11 +2,7 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
- * Description: c program makes function for printing
- *
- * Return: 0 (success)
+ * print_alphabet that prints the alphabet in lowercase
 */
 
 int main(void)
