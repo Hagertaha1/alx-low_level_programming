@@ -9,10 +9,9 @@
 */
 
 int main(void)
-{int n = 'z';
-while (n >= 'a')
-{putchar(n + '0');
-n--;
+{char ch;
+for (ch = 'z'; ch >= 'a'; ch--)
+{putchar(ch);
 }
 putchar('\n');
 return (0);
