@@ -6,7 +6,7 @@
  *
  * @n: prints sign depend on input n
  *
- * Return: Returns 1 (n is greater than zero), Returns 0 ( n is zero), Returns -1 (n is less than zero)
+ * Return: Returns 1 if n>0, Returns 0 if n=0, Returns -1 if n<0
 */
 
 int print_sign(int n)
