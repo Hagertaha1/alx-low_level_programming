@@ -1,4 +1,4 @@
-#include <stdio.h>
+[#include <stdio.h>
 #include "main.h"
 
 /**
@@ -12,12 +12,15 @@
 int print_sign(int n)
 {
 if (n > 0)
-printf("+");
+{_putchar(43);
 return (1);
-if (n == 0)
-printf("0");
+}
+else if (n == 0)
+{_putchar(48);
 return (0);
-if (n < 0)
-printf("-");
+}
+else
+{_putchar(45);
 return (-1);
+}
 }
