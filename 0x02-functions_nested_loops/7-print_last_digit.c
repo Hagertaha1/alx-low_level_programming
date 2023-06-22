@@ -4,15 +4,19 @@
 /**
  * print_last_digit - function prints the last digit of a number
  *
- * @digit: prints the last digit input digit
+ * @n: prints the last digit input n
  *
  * Return: the value of the last digit
 */
 
-int print_last_digit(int digit)
+int print_last_digit(int n)
 {
-int n;
+int digit;
+if (n < 0)
+{digit = -1 * (n % 10);
+else
 digit = n % 10;
-_putchar(digit)
+}
+_putchar(digit + '0');
 return (digit);
 }
