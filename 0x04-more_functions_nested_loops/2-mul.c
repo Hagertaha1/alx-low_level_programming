@@ -4,13 +4,12 @@
 /**
  * mul - function that multiplies two integers
  *
- * Description: multiplies two input a, b
+ * @a: first input
+ * @b: second input
  *
- * Retur: always 0 (success)
+ * Retur: result of multiplition
 */
 
 int mul(int a, int b)
-{
-printf(%i, (a * b));
-return (0);
+{return (a * b);
 }
