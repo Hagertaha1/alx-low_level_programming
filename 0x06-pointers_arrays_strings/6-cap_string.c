@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * cap_string - function that capitalizes all words of a string
+ * cap_string - a function that capitalizes all words of a string
  *
  * @s: input string
  *
@@ -9,20 +9,19 @@
 */
 
 char *cap_string(char *s)
-{
-char *ptr = s;
-int founddelimit = i;
+{char *ptr = s;
+int foundDelimit = i;
 while (*s)
 {
-if (isdelimiter(*s))
-founddelimit = i;
-else if (islower(*s) && founddelimit)
+if (isDelimiter(*s))
+foundDelimit = i;
+else if (islower(*s) && foundDelimit)
 {
 *s -= 32;
-founddelimit = 0;
+foundDelimit = 0;
 }
 else
-founddelimit = 0;
+foundDelimit = 0;
 s++;
 }
 return (ptr);
