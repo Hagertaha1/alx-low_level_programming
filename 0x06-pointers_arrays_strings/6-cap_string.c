@@ -5,16 +5,16 @@
  *
  * @s: input string
  *
- * return: string with capitalized words
+ * Return: string with capitalized words
 */
 
 char *cap_string(char *s)
 {char *ptr = s;
-int foundDelimit = i;
+int foundDelimit = 1;
 while (*s)
 {
 if (isDelimiter(*s))
-foundDelimit = i;
+foundDelimit = 1;
 else if (islower(*s) && foundDelimit)
 {
 *s -= 32;
